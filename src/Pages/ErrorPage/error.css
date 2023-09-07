@@ -1,0 +1,23 @@
+.error_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 4rem;
+
+}
+.error_body > h2{
+  font-size: 64px;
+  color: #da7422;
+
+}
+.error_body > u{
+padding-top: 2rem;
+transition: all .2s ease-in-out;
+
+}
+.error_body > u:hover{
+  color: #da7422;
+
+}

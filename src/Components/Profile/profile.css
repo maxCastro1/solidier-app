@@ -1,0 +1,12 @@
+.profile-cont{
+    min-height: 70vh;
+}
+.profile-cont{
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.profile-cont > button{
+   width: 200px !important;
+}

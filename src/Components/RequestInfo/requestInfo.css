@@ -1,0 +1,38 @@
+.request-title-cont{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.request-title-cont hr{
+margin-block: 2rem ;
+}
+.request-title-cont > div{
+    display: flex;
+    gap: .5rem;
+}
+.request-title-cont  h2{
+  font-size: 24px;
+}
+.reqest-info-button {
+    justify-content: flex-end;
+    padding-block: 5rem;
+}
+.reauest-details-more{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.request-titles {
+    font-weight: 300;
+}
+
+.next {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.next-cont {
+    display: flex;
+    flex-direction: column;
+}

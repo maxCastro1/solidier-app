@@ -1,0 +1,49 @@
+.soldier-cont {
+    min-height: 75vh;
+}
+.req-card{
+   background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border-radius: 4px;
+    width: 400px;
+    box-shadow:-1px 1px 1px 2px rgb(208, 208, 208);
+    margin-top:2rem ;
+    display: flex;
+    height: 150px;
+}
+.req-card div{
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ 
+}
+.req-card-left, .req-card-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.req-card-right > a{
+
+    border-radius: 50%;
+    background-color: green;
+    width: 60%;
+    height: 100%;
+    font-size: 64px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease-in-out;
+
+} 
+.req-card-right > a:hover{
+
+ font-size: 48px;
+ transform:scale(1.1);
+
+} 
+.req-card-right {
+
+ align-items: end;
+} 

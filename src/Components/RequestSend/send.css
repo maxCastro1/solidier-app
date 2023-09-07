@@ -1,0 +1,75 @@
+.forms-cont{
+    width: 100%;
+}
+.request-send-inputs {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+.request-send-inputs input, .form-field input{
+    width: 80%;
+    transition: all .2s ease-in-out;
+    max-width: 400px;
+    border: solid 1px grey !important;
+}
+.request-send-inputs input:focus{
+    border: solid 2px black;
+    padding: 1rem 1.5rem;
+}
+.send-req-cont{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+}
+.send-req-cont > div{
+  width: 50%;
+}
+.page-two {
+    justify-content: unset;
+}
+.page-three-title {
+    padding-bottom: 2rem;
+    font-size: 24px;
+}
+.page-three > hr , .page-two  hr {
+    margin-block: 2rem;
+}
+.page-three  .reauest-details-more {
+    padding-left:.5rem;
+}
+.req-button-cont {
+    margin-block: 2rem;
+    display: flex;
+    gap: 2rem;
+
+}
+.button-next { 
+    padding: .8rem 2rem;
+    background-color: grey;
+    color: white;
+    border-radius: 2px;
+}
+.page-indicator-cont {
+    display: flex;
+    border: solid 1px grey;
+    width: 200px;
+    margin-left: auto;
+    margin-bottom: 2rem;
+
+}
+.page-indicator{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block:.5rem ;
+}
+.active-page {
+    background-color: gray;
+    color: white;
+}
+.error {
+  
+    color: rgb(255, 127, 127);
+    font-size: 12px;
+}

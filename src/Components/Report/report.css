@@ -1,0 +1,95 @@
+.report_page_container {
+    overflow: hidden;
+}
+.report_page_body {
+    overflow-x: scroll;
+}
+.report_page_body h3{
+    font-size: 24px;
+    padding-block: 2rem;
+}
+table{
+    margin-top: 2rem ;
+    overflow: scroll;
+    min-height: min-content;
+
+}
+table tr  {
+  display: flex;
+  gap: 1rem;
+  border-bottom: solid 2px rgb(176, 176, 176);
+}
+
+
+table th   {
+display: flex;
+align-items: flex-start;
+justify-content: center;
+min-width: 300px;
+font-weight: 300;
+
+}
+table tr:nth-child(even)   {
+background-color: rgb(241, 241, 241);
+
+}
+table tr:hover  {
+    background-color: rgb(232, 232, 232);
+    cursor: pointer;
+  }
+table thead tr:hover  {
+  background-color: rgb(255, 255, 255);
+  cursor: unset;
+}
+table thead tr  {
+ padding-block:.5rem ;
+}
+
+table td   {
+display: flex;
+align-items: flex-start;
+justify-content: center;
+min-width: 300px;
+font-weight: 200;
+padding-block: .5rem ;
+border-left: solid 1px  rgb(176, 176, 176);;
+
+}
+.filter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 2rem;
+    border-bottom: solid 2px rgb(176, 176, 176);
+}
+.form-group {
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.form-group input{
+   padding: .5rem 1rem;
+   border: solid 1px rgb(176, 176, 176);
+   border-radius: 4px;
+   outline: none;
+   font-weight: 200;
+}
+.form-group select {
+   padding: .5rem 1rem;
+   background-color: white;
+   border: solid 1px rgb(176, 176, 176);
+   border-radius: 4px;
+   outline: none;
+   font-weight: 200;
+}
+.form-group button {
+margin-top: 2rem;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: #DA7422;
+  border-radius: 8px;
+}
+.feedcak-paragraph{
+    padding-block:2rem;
+    font-weight: 200;
+}
